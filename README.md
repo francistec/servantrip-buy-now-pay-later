@@ -47,6 +47,7 @@ Stripe reintenta según la configuración de Billing.
 
 ## Arquitectura del proyecto
 
+```text
 BNPL.sln
 │
 ├── BNPL.Api → Endpoints REST, DI, Swagger
@@ -58,7 +59,7 @@ BNPL.sln
 ├── BNPL.Infrastructure → Stripe integration (SubscriptionSchedules)
 │
 └── BNPL.Notifications → (pendiente) Emails transaccionales
-
+```
 
 ---
 
@@ -127,9 +128,9 @@ Implementada en:
   "serviceDate": "2026-02-15T00:00:00",
   "userEmail": "cliente@example.com"
 }
-
+```
 **Response**
-
+```json
 {
   "bookingId": "BNPL_001",
   "amountToCharge": 450,
