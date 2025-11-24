@@ -1,0 +1,6 @@
+@BNPL_HostAddress = http://localhost:5262
+
+GET {{BNPL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

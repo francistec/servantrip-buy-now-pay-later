@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/BNPL.Api/">
+    <Project Path="../BNPL.Api/BNPL.Api.csproj" />
+  </Folder>
+  <Folder Name="/BNPL.Application/">
+    <Project Path="../BNPL.Application/BNPL.Application.csproj" />
+  </Folder>
+  <Folder Name="/BNPL.Domain/">
+    <Project Path="../BNPL.Domain/BNPL.Domain.csproj" />
+  </Folder>
+  <Folder Name="/BNPL.Infrastructure/">
+    <Project Path="../BNPL.Infrastructure/BNPL.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/BNPL.Notifications/">
+    <Project Path="../BNPL.Notifications/BNPL.Notifications.csproj" />
+  </Folder>
+</Solution>
